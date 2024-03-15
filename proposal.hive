@@ -1,0 +1,10 @@
+containers:
+  - name: react_app_container
+    location: Dockerfile
+    profile: null
+    resources:
+      cpu: 2
+      memory: 4GB
+    environment: null
+    scaling:
+      auto_scale: true
